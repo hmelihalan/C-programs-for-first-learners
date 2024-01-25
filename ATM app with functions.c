@@ -56,8 +56,8 @@ int addMoney(int blnc, int add) {
     }
     return blnc;
 }
-/*Using a int return on these two functions to update the files,
-because in the function variable is not global so balance is not gonna update you can use pointers to do with no return void functions*/
+/*Using a int return on these two functions to update the files,*/
+/*because in the function variable is not global so balance is not gonna update you can use pointers to do with no return void functions*/
 int wthdrwMoney(int blnc, int wthdrw) {
     if (wthdrw < 0) {
         printf("Invalid amount!\n");
